@@ -67,6 +67,26 @@ h4 {
   line-height: 1.2;
 }
 
+@media only screen and (max-width: 470px) {
+  .main-header {
+    height: 15rem;
+  }
+
+  .headline {
+    top: 10rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+}
+ 
 /* NAVIGATION BAR */ 
 
 nav {
@@ -152,6 +172,28 @@ nav ul {
   }
 }
 
+@media only screen and (max-width: 470px) {
+  .products,
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+}
+
 /* FOOTER */
 
 footer {
@@ -159,4 +201,11 @@ footer {
   margin-top: 4rem;
   background-color: black;
   color: white;
+}
+
+@media only screen and (max-width: 470px) {
+
+  footer {
+    text-align: center;
+  }
 }
