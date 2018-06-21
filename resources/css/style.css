@@ -1,11 +1,17 @@
 /* UNIVERSAL STYLES */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 18px;
 }
 
 body {
   font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
 }
 
 h1,
@@ -34,4 +40,30 @@ h4 {
 .company img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/* MAIN HEADER */ 
+
+.main-header {
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.headline {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+.headline h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+
 }
