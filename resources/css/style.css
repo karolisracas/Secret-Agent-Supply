@@ -65,5 +65,23 @@ h4 {
   margin: 0.25rem 0;
   font-size: 2rem;
   line-height: 1.2;
+}
 
+/* NAVIGATION BAR */ 
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.mobile-nav {
+  display: none;
 }
