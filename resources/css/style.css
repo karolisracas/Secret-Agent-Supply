@@ -86,6 +86,17 @@ nav ul {
   display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
+
 /* PRODUCTS AND MAIN INFO */
 
 .products,
@@ -127,6 +138,25 @@ nav ul {
 .info .title {
   display: block;
   padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  padding: 5rem;
+  margin-top: 4rem;
   background-color: black;
   color: white;
 }
